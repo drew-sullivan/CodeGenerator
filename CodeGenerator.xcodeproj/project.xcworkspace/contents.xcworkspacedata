@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DS2CodeGenerator.xcodeproj">
+      location = "self:/Users/Drew/coding_stuff/DS2CodeGenerator/CodeGenerator.xcodeproj">
    </FileRef>
 </Workspace>

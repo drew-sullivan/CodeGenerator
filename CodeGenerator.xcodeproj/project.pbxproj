@@ -11,7 +11,6 @@
 		3AAD3AA9244E1FCE001F22DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AA8244E1FCE001F22DB /* ViewController.swift */; };
 		3AAD3AAB244E1FCF001F22DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD3AAA244E1FCF001F22DB /* Assets.xcassets */; };
 		3AAD3AAE244E1FCF001F22DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD3AAC244E1FCF001F22DB /* Main.storyboard */; };
-		3AAD3ABA244E1FCF001F22DB /* DS2CodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AB9244E1FCF001F22DB /* DS2CodeGeneratorTests.swift */; };
 		3AAD3AC5244E1FE4001F22DB /* TemplateManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AC4244E1FE4001F22DB /* TemplateManagerTests.swift */; };
 		3AAD3AC7244E2015001F22DB /* TemplateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AC6244E2015001F22DB /* TemplateManager.swift */; };
 /* End PBXBuildFile section */
@@ -27,15 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AAD3AA3244E1FCE001F22DB /* DS2CodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS2CodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAD3AA3244E1FCE001F22DB /* CodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAD3AA6244E1FCE001F22DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AAD3AA8244E1FCE001F22DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AAD3AAA244E1FCF001F22DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAD3AAD244E1FCF001F22DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AAD3AAF244E1FCF001F22DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AAD3AB0244E1FCF001F22DB /* DS2CodeGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DS2CodeGenerator.entitlements; sourceTree = "<group>"; };
-		3AAD3AB5244E1FCF001F22DB /* DS2CodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DS2CodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AAD3AB9244E1FCF001F22DB /* DS2CodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DS2CodeGeneratorTests.swift; sourceTree = "<group>"; };
+		3AAD3AB0244E1FCF001F22DB /* CodeGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeGenerator.entitlements; sourceTree = "<group>"; };
+		3AAD3AB5244E1FCF001F22DB /* CodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAD3ABB244E1FCF001F22DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AAD3AC4244E1FE4001F22DB /* TemplateManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManagerTests.swift; sourceTree = "<group>"; };
 		3AAD3AC6244E2015001F22DB /* TemplateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateManager.swift; sourceTree = "<group>"; };
@@ -62,8 +60,8 @@
 		3AAD3A9A244E1FCE001F22DB = {
 			isa = PBXGroup;
 			children = (
-				3AAD3AA5244E1FCE001F22DB /* DS2CodeGenerator */,
-				3AAD3AB8244E1FCF001F22DB /* DS2CodeGeneratorTests */,
+				3AAD3AA5244E1FCE001F22DB /* CodeGenerator */,
+				3AAD3AB8244E1FCF001F22DB /* CodeGeneratorTests */,
 				3AAD3AA4244E1FCE001F22DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,13 +69,13 @@
 		3AAD3AA4244E1FCE001F22DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD3AA3244E1FCE001F22DB /* DS2CodeGenerator.app */,
-				3AAD3AB5244E1FCF001F22DB /* DS2CodeGeneratorTests.xctest */,
+				3AAD3AA3244E1FCE001F22DB /* CodeGenerator.app */,
+				3AAD3AB5244E1FCF001F22DB /* CodeGeneratorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AAD3AA5244E1FCE001F22DB /* DS2CodeGenerator */ = {
+		3AAD3AA5244E1FCE001F22DB /* CodeGenerator */ = {
 			isa = PBXGroup;
 			children = (
 				3AAD3AA6244E1FCE001F22DB /* AppDelegate.swift */,
@@ -85,28 +83,27 @@
 				3AAD3AAA244E1FCF001F22DB /* Assets.xcassets */,
 				3AAD3AAC244E1FCF001F22DB /* Main.storyboard */,
 				3AAD3AAF244E1FCF001F22DB /* Info.plist */,
-				3AAD3AB0244E1FCF001F22DB /* DS2CodeGenerator.entitlements */,
+				3AAD3AB0244E1FCF001F22DB /* CodeGenerator.entitlements */,
 				3AAD3AC6244E2015001F22DB /* TemplateManager.swift */,
 			);
-			path = DS2CodeGenerator;
+			path = CodeGenerator;
 			sourceTree = "<group>";
 		};
-		3AAD3AB8244E1FCF001F22DB /* DS2CodeGeneratorTests */ = {
+		3AAD3AB8244E1FCF001F22DB /* CodeGeneratorTests */ = {
 			isa = PBXGroup;
 			children = (
-				3AAD3AB9244E1FCF001F22DB /* DS2CodeGeneratorTests.swift */,
 				3AAD3ABB244E1FCF001F22DB /* Info.plist */,
 				3AAD3AC4244E1FE4001F22DB /* TemplateManagerTests.swift */,
 			);
-			path = DS2CodeGeneratorTests;
+			path = CodeGeneratorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AAD3AA2244E1FCE001F22DB /* DS2CodeGenerator */ = {
+		3AAD3AA2244E1FCE001F22DB /* CodeGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AAD3ABE244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "DS2CodeGenerator" */;
+			buildConfigurationList = 3AAD3ABE244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "CodeGenerator" */;
 			buildPhases = (
 				3AAD3A9F244E1FCE001F22DB /* Sources */,
 				3AAD3AA0244E1FCE001F22DB /* Frameworks */,
@@ -116,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = DS2CodeGenerator;
+			name = CodeGenerator;
 			productName = DS2CodeGenerator;
-			productReference = 3AAD3AA3244E1FCE001F22DB /* DS2CodeGenerator.app */;
+			productReference = 3AAD3AA3244E1FCE001F22DB /* CodeGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3AAD3AB4244E1FCF001F22DB /* DS2CodeGeneratorTests */ = {
+		3AAD3AB4244E1FCF001F22DB /* CodeGeneratorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AAD3AC1244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "DS2CodeGeneratorTests" */;
+			buildConfigurationList = 3AAD3AC1244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "CodeGeneratorTests" */;
 			buildPhases = (
 				3AAD3AB1244E1FCF001F22DB /* Sources */,
 				3AAD3AB2244E1FCF001F22DB /* Frameworks */,
@@ -134,9 +131,9 @@
 			dependencies = (
 				3AAD3AB7244E1FCF001F22DB /* PBXTargetDependency */,
 			);
-			name = DS2CodeGeneratorTests;
+			name = CodeGeneratorTests;
 			productName = DS2CodeGeneratorTests;
-			productReference = 3AAD3AB5244E1FCF001F22DB /* DS2CodeGeneratorTests.xctest */;
+			productReference = 3AAD3AB5244E1FCF001F22DB /* CodeGeneratorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3AAD3A9E244E1FCE001F22DB /* Build configuration list for PBXProject "DS2CodeGenerator" */;
+			buildConfigurationList = 3AAD3A9E244E1FCE001F22DB /* Build configuration list for PBXProject "CodeGenerator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +168,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AAD3AA2244E1FCE001F22DB /* DS2CodeGenerator */,
-				3AAD3AB4244E1FCF001F22DB /* DS2CodeGeneratorTests */,
+				3AAD3AA2244E1FCE001F22DB /* CodeGenerator */,
+				3AAD3AB4244E1FCF001F22DB /* CodeGeneratorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAD3ABA244E1FCF001F22DB /* DS2CodeGeneratorTests.swift in Sources */,
 				3AAD3AC5244E1FE4001F22DB /* TemplateManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +217,7 @@
 /* Begin PBXTargetDependency section */
 		3AAD3AB7244E1FCF001F22DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3AAD3AA2244E1FCE001F22DB /* DS2CodeGenerator */;
+			target = 3AAD3AA2244E1FCE001F22DB /* CodeGenerator */;
 			targetProxy = 3AAD3AB6244E1FCF001F22DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -357,16 +353,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DS2CodeGenerator/DS2CodeGenerator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CodeGenerator/CodeGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8JKMQ4CU85;
-				INFOPLIST_FILE = DS2CodeGenerator/Info.plist;
+				INFOPLIST_FILE = CodeGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.DS2CodeGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.CodeGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -376,16 +372,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DS2CodeGenerator/DS2CodeGenerator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CodeGenerator/CodeGenerator.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8JKMQ4CU85;
-				INFOPLIST_FILE = DS2CodeGenerator/Info.plist;
+				INFOPLIST_FILE = CodeGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.DS2CodeGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.CodeGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -399,16 +395,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8JKMQ4CU85;
-				INFOPLIST_FILE = DS2CodeGeneratorTests/Info.plist;
+				INFOPLIST_FILE = CodeGeneratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.DS2CodeGeneratorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.CodeGeneratorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS2CodeGenerator.app/Contents/MacOS/DS2CodeGenerator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerator.app/Contents/MacOS/CodeGenerator";
 			};
 			name = Debug;
 		};
@@ -420,23 +416,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 8JKMQ4CU85;
-				INFOPLIST_FILE = DS2CodeGeneratorTests/Info.plist;
+				INFOPLIST_FILE = CodeGeneratorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.DS2CodeGeneratorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.drewsullivandma.CodeGeneratorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS2CodeGenerator.app/Contents/MacOS/DS2CodeGenerator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeGenerator.app/Contents/MacOS/CodeGenerator";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AAD3A9E244E1FCE001F22DB /* Build configuration list for PBXProject "DS2CodeGenerator" */ = {
+		3AAD3A9E244E1FCE001F22DB /* Build configuration list for PBXProject "CodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AAD3ABC244E1FCF001F22DB /* Debug */,
@@ -445,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AAD3ABE244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "DS2CodeGenerator" */ = {
+		3AAD3ABE244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "CodeGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AAD3ABF244E1FCF001F22DB /* Debug */,
@@ -454,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AAD3AC1244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "DS2CodeGeneratorTests" */ = {
+		3AAD3AC1244E1FCF001F22DB /* Build configuration list for PBXNativeTarget "CodeGeneratorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AAD3AC2244E1FCF001F22DB /* Debug */,

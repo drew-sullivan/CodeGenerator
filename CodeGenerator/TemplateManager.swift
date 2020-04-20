@@ -1,6 +1,6 @@
 //
 //  TemplateManager.swift
-//  DS2CodeGenerator
+//  CodeGenerator
 //
 //  Created by Drew Sullivan on 4/20/20.
 //  Copyright © 2020 Drew Sullivan. All rights reserved.

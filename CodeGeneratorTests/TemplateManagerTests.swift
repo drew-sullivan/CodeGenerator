@@ -1,13 +1,13 @@
 //
 //  TemplateManagerTests.swift
-//  DS2CodeGeneratorTests
+//  CodeGeneratorTests
 //
 //  Created by Drew Sullivan on 4/20/20.
 //  Copyright © 2020 Drew Sullivan. All rights reserved.
 //
 
 import XCTest
-@testable import DS2CodeGenerator
+@testable import CodeGenerator
 
 class TemplateManagerTests: XCTestCase {
     
