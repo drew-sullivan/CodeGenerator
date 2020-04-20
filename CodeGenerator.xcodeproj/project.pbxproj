@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8F7074244E304300959FDC /* FileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F7073244E304300959FDC /* FileInteractor.swift */; };
+		3A8F7076244E305900959FDC /* FileInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F7075244E305900959FDC /* FileInteractorTests.swift */; };
 		3AAD3AA7244E1FCE001F22DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AA6244E1FCE001F22DB /* AppDelegate.swift */; };
 		3AAD3AA9244E1FCE001F22DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD3AA8244E1FCE001F22DB /* ViewController.swift */; };
 		3AAD3AAB244E1FCF001F22DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD3AAA244E1FCF001F22DB /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A8F7073244E304300959FDC /* FileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInteractor.swift; sourceTree = "<group>"; };
+		3A8F7075244E305900959FDC /* FileInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInteractorTests.swift; sourceTree = "<group>"; };
 		3AAD3AA3244E1FCE001F22DB /* CodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAD3AA6244E1FCE001F22DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AAD3AA8244E1FCE001F22DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				3AAD3AAF244E1FCF001F22DB /* Info.plist */,
 				3AAD3AB0244E1FCF001F22DB /* CodeGenerator.entitlements */,
 				3AAD3AC6244E2015001F22DB /* TemplateManager.swift */,
+				3A8F7073244E304300959FDC /* FileInteractor.swift */,
 			);
 			path = CodeGenerator;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				3AAD3ABB244E1FCF001F22DB /* Info.plist */,
 				3AAD3AC4244E1FE4001F22DB /* TemplateManagerTests.swift */,
+				3A8F7075244E305900959FDC /* FileInteractorTests.swift */,
 			);
 			path = CodeGeneratorTests;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			files = (
 				3AAD3AA9244E1FCE001F22DB /* ViewController.swift in Sources */,
 				3AAD3AA7244E1FCE001F22DB /* AppDelegate.swift in Sources */,
+				3A8F7074244E304300959FDC /* FileInteractor.swift in Sources */,
 				3AAD3AC7244E2015001F22DB /* TemplateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8F7076244E305900959FDC /* FileInteractorTests.swift in Sources */,
 				3AAD3AC5244E1FE4001F22DB /* TemplateManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

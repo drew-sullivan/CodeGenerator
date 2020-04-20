@@ -25,7 +25,6 @@ struct TemplateRequest {
 
 class TemplateManager {
     
-    static let shared = TemplateManager()
     private var templates: [TemplateLanguage: [SuperclassName: [String]]] = [
         TemplateLanguage.swift: [
             SuperclassName.uiView: ["<CLASS_NAME> template"]
@@ -35,7 +34,12 @@ class TemplateManager {
         ]
     ]
     
-    private init() { }
+    static let shared = TemplateManager()
+    private var fileInteractor: FileInteractorProtocol
+        
+    private init(_ fileInteractor: FileInteractorProtocol = FileInteractor()) {
+        self.fileInteractor = fileInteractor
+    }
     
     func templates(forTemplateRequest templateRequest: TemplateRequest) -> [String] {
         guard let templates = templates[templateRequest.language]?[templateRequest.superclassName] else {
